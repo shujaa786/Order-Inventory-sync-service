@@ -10,9 +10,9 @@ Sizing: sale day is about 80k orders. Peak is 300/min = **5 orders/s**, about 10
 
 ## 2. Architecture
 
-![Architecture diagram](design/architecture.png)
+![Architecture diagram](architecture.png)
 
-Editable source: [`design/architecture.svg`](design/architecture.svg).
+Editable source: [`architecture.svg`](architecture.svg).
 
 **What runs where.** One NestJS codebase deployed on ECS Fargate as two services:
 - `api`: webhook receivers, ops API and a small static React page for ops.
